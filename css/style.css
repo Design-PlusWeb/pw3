@@ -1,0 +1,62 @@
+
+    /* Asegúrate de que el menú tenga un z-index alto */
+    #mobile-menu {
+      z-index: 50;
+    }
+    /* Enlaces en el menú móvil */
+    #mobile-menu a {
+      padding: 10px;
+
+    }
+    /* Hover en enlaces */
+    #mobile-menu a:hover {
+      background-color: #f0f0f0; /* gris claro */
+      border-radius: 12px;
+    }
+      .hero-background {
+      background-image: url('img/fondo-castillo.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+ 
+    
+    /*linghtbox*/
+       .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 50;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .lightbox-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    /* Fin Linghtbox*/
+
